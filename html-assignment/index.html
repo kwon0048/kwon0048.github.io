@@ -6,23 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semantics Assignment - Fuk Chuen KWONG </title>
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
     <header>
+        <h1 class="site-title">Fuk Chuen KWONG</h1>
         <nav>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="notes.html">Notes</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="notes.html">Notes</a></li>
             </ul>
         </nav>
-        <h1>Fuk Chuen KWONG</h1>
     </header>
 
     <main>
         <article>
             <h2>About Me</h2>
-            <img width="180" src="./images/profile-picture.jpg" alt="John Kwong">
+            <img id="my-image" width="180" src="./images/profile-picture.jpg" alt="John Kwong">
             <p>I am John, a software developer from Hong Kong with a keen interest in hiking, music, coding, and playing
                 the guitar. Personally, I am particularly fascinated by XR technology and I am eager to learn design and
                 3D skills. Combining my technical expertise with my artistic aspirations, I seek to explore new
@@ -31,11 +32,12 @@
                 like <strong>Unreal Engine</strong>. It's also worth considering learning about <strong>WebXR</strong>.
             </p>
             <h3>My Hobbies</h3>
-            <ul>
-                <li>Guitar
-                </li>
-                <li>Movie
-                </li>
+            <ul class="hobbies-list">
+                <li>Guitar</li>
+                <li>Movie</li>
+                <li>Art</li>
+                <li>Animation</li>
+                <li>Technology</li>
             </ul>
             <h3>Technical Skills:</h3>
             <ul>
@@ -65,7 +67,6 @@
                 <cite>- Steve Jobs</cite>
             </blockquote>
             <p>Page last updated on <span id="updated-date">May 29<sup>th</sup>, 2023</span>.</p>
-
 
         </article>
     </main>
