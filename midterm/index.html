@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extended Reality In Education</title>
+    <!-- Add CSS file and images in proper folders -->
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+
+<body>
+    <div class="header-wrapper">
+        <!-- Header - Use the image tag to add the image and position the site title on top of it -->
+        <header>
+            <div class="banner">
+                <h1>Extended Reality In Education</h1>
+                <!-- Add CSS file and images in proper folders -->
+                <img src="images/vr-house.jpg" alt="Extended Reality In Education">
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#story" class="story">STORY</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- Article - Image should have the text wrapping around it -->
+    <div class="content-wrapper">
+        <main>
+            <section id="story">
+                <h2>Extended Reality In Education</h2>
+                <div class="container">
+                    <img src="images/students-vrheadset.jpg" alt="Students are wearing the VR headset">
+                    <p>Extended Reality (XR) in education refers to the integration of <b>virtual reality (VR)</b>,
+                        <b>augmented reality (AR)</b>, and <b>mixed reality (MR)</b> technologies to enhance the
+                        learning process. XR creates immersive and interactive experiences that bridge the gap between
+                        the real and virtual worlds.
+                        By leveraging XR, students can engage in simulated environments, interactive simulations, and
+                        virtual field trips, allowing for experiential and hands-on learning. For instance, science
+                        students can explore the inner workings of cells through immersive VR experiences, while history
+                        students can virtually visit historical sites and interact with artifacts through AR. XR in
+                        education enhances student engagement and understanding by providing a multisensory and
+                        interactive learning environment. Students can manipulate virtual objects, conduct experiments,
+                        and collaborate with peers in shared virtual spaces, fostering critical thinking and
+                        problem-solving skills.XR expands educational accessibility and inclusivity by breaking down
+                        physical barriers. It enables remote learning, bringing educational experiences to students
+                        regardless of their geographical location. Additionally, XR accommodates different learning
+                        styles and preferences, catering to individual needs and promoting personalized learning
+                        experiences.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h3>Extended Reality Product in Education</h3>
+                <!-- Facts - Use proper syntax for listing the facts -->
+                <ul class="products">
+                    <li><b>Virtual Reality (VR) Simulations:</b> Immersive experiences that allow students to
+                        explore and interact with simulated environments, such as historical landmarks or scientific
+                        phenomena. </li>
+                    <li><b>Augmented Reality (AR) Apps:</b> Applications that overlay digital information onto the
+                        real world, enabling students to enhance their learning through interactive visualizations
+                        or virtual objects.</li>
+                    <li><b>Mixed Reality (MR) Collaboration Tools:</b> Platforms that enable students and teachers
+                        to collaborate and interact with digital content in a shared mixed reality space, fostering
+                        teamwork and engagement.</li>
+                    <li><b>360-Degree Videos:</b> Recorded videos that provide a panoramic view of a real-world or
+                        simulated environment, allowing students to experience immersive storytelling or virtual
+                        field trips.</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h3>Contact to learn more</h3>
+                <div class="contact-form">
+                    <!-- Form - All the inputs must be linked to the relative labels. -->
+                    <form action="contactme.php" method="post">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" rows="5" name="message"></textarea>
+                        <h4>Would you like to visit our company?</h4>
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="yes" name="options" value="yes">
+                        <label for="no">No</label>
+                        <input type="radio" id="no" name="options" value="no">
+                        <label for="maybe">Maybe</label>
+                        <input type="radio" id="maybe" name="options" value="maybe">
+                        <input class="send-button" type="submit" value="SEND">
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="footer-wrapper">
+        <footer>
+            <p>&copy; 2023 Fuk Chuen Kwong</p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,206 @@
+/* Global styles */
+
+/* Set a negative top margin for the HTML element */
+html {
+    margin-top: -10px;
+}
+
+/* Set the font family, size, and background color for the body */
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    background-color: #398ab9;
+}
+
+/* Layout styles */
+
+/* Set the background color, width, and center alignment for the header, content, and footer wrappers */
+.header-wrapper,
+.content-wrapper,
+.footer-wrapper {
+    background-color: #eeeeee;
+    width: 950px;
+    margin: auto;
+}
+
+/* Header styles */
+
+/* Position the banner image and style the site title */
+.banner {
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Set the width to 100% for all images */
+img {
+    width: 100%;
+}
+
+/* Style the site title within the header */
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+/* Navigation styles */
+
+/* Style the navigation menu */
+.navigation>ul {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 530;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+
+/* Set padding for the navigation menu items */
+.navigation>ul>li {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+/* Center align the navigation menu */
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+/* Change the color on hover for navigation menu items */
+.navigation :hover {
+    color: #398ab9;
+}
+
+/* Remove underline from anchor tags */
+a {
+    text-decoration: none;
+}
+
+/* Article styles */
+
+/* Style the content of the article */
+.story {
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 1rem;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    z-index: 1;
+    position: relative;
+}
+
+/* Set padding, border, and margin for the main section */
+main {
+    padding: 0px;
+    border-left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Style the heading within the article */
+h2 {
+    font-size: 2.2rem;
+    font-weight: 200;
+    margin-bottom: 5px;
+    margin-block-start: 0px;
+}
+
+/* Set padding and margin for paragraphs within the article */
+.container p {
+    padding-right: 5px;
+    margin: 0px;
+}
+
+/* Style the images within the article */
+main section .container img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    padding-top: 3px;
+    padding-right: 20px;
+}
+
+/* Style the subheadings within the article */
+h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 100;
+}
+
+/* Facts styles */
+
+/* Set margin to 0 for the list of products */
+.products {
+    margin: 0px;
+}
+
+/* Set line height and margin for list items within the products list */
+.products li {
+    line-height: 1;
+    margin: 0px;
+    margin-left: -20px;
+}
+
+/* Contact form styles */
+
+/* Style the contact form */
+div .contact-form {
+    padding: 15px;
+    line-height: 2;
+    border: 1px solid black;
+}
+
+/* Style the heading within the contact form */
+h4 {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 8px;
+    margin-left: 0px;
+}
+
+/* Style the send button */
+.send-button {
+    width: 50px;
+    height: 35px;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 10px;
+    margin-left: 0px;
+    display: block;
+    background-color: #eeeeee;
+    color: black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+/* Change the background color and text color on hover for the send button */
+.send-button:hover {
+    background-color: #398ab9;
+    color: white;
+}
+
+/* Footer styles */
+
+/* Align the text to the right and set padding for the footer */
+footer {
+    text-align: right;
+    padding: 15px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+/* Input styles */
+
+/* Set the width to 100% for text, email, and textarea input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+}
